@@ -1,5 +1,7 @@
-*h3{
-    color: #9E8C6C;
+.envelope{
+    width: 1024px;
+    margin: 0 auto;
+    align-items: center;
 }
 
 .Banner{
@@ -25,4 +27,75 @@ img{
 .box2{
     align-items: block;
     margin: 213px 165px 263px auto;
+}
+
+.box2 h4{
+    color: #9E8C6C;
+    margin-bottom: -120px;
+    font-size: 18px;
+}
+
+h2{
+    font-size: 126px;
+    color: #000000;
+}
+
+.btn{
+    display: inline-block;
+    padding: 20px 50px;
+    text-decoration: none;
+    background-color: #0699A6;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin-top: -100px;
+}
+
+.container{
+    width: 1440px;
+    display: flex;
+}
+
+.colunaesquerda{
+    padding-right: 40px;
+    width: 40%;
+}
+
+h4{
+    color: #9E8C6C;
+    font-size: 20px;
+}
+
+p{
+    font-size: 20px;
+}
+
+ul{
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 10px;
+    list-style: none;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+.caixa1{
+    align-items: center;
+}
+
+.caixa3{
+    font-size: 23px;
+}
+
+.button{
+    text-decoration: none;
+    color: #0699A6;
+    display: block;
+    font-size: 20px;
+}
+
+.colunadireita{
+    width: 60%;
+    padding-left: 40px;
 }
