@@ -1,15 +1,12 @@
-.envelope, .container, .banner{
-    max-width: 100%;
-}
-
 .envelope{
-    width: 1024px;
+    width: 1440px;
     margin: 0 auto;
     align-items: center;
+    display: flex;
 }
 
 .banner{
-    width: 1440px;
+    width: 100%;
     height: 700px;
     background-color:#F5F3F0;
     display: flex;
@@ -21,7 +18,7 @@
     margin: 0 100px;
 }
 
-img{
+.box1 img{
     width: 350px;
     height: 350px;
     border-radius: 100%;
@@ -58,6 +55,7 @@ h2{
 .container{
     width: 1440px;
     display: flex;
+    margin: 0 auto;
 }
 
 .container h3{
@@ -71,27 +69,27 @@ h2{
 }
 
 .colunaesquerda{
-    padding-right: 40px;
+    padding: 40px;
     width: 40%;
 }
 
-h4{
+.colunaesquerda h4{
     color: #9E8C6C;
     font-size: 20px;
 }
 
-p{
+.colunaesquerda p{
     font-size: 20px;
 }
 
-ul{
+.colunaesquerda ul{
     text-decoration: none;
     font-size: 20px;
     margin-top: 10px;
     list-style: none;
 }
 
-li{
+.colunaesquerda li{
     margin-bottom: 10px;
 }
 
@@ -103,6 +101,12 @@ li{
     font-size: 23px;
 }
 
+.destaque{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 34px;
+}
+
 .button{
     text-decoration: none;
     color: #0699A6;
@@ -112,19 +116,24 @@ li{
 
 .colunadireita{
     width: 60%;
-    padding-left: 40px;
+    padding: 60px;
     flex-direction: column;
 }
 
-caixa5, caixa6{
+.colunadireita h4{
+    color: #9E8C6C;
+    font-size: 20px;
+}
+
+.caixa5, .caixa6{
     padding-bottom: 20px;
 }
 
 .rodape{
     background-color: #F5F3F0;
-    width: 1440px;
+    width: 100%;
     height: 547px;
-    padding: 177px 323px 111.18px 324px;
+    text-align: center;
 }
 
 .rodape h2{
@@ -134,4 +143,45 @@ caixa5, caixa6{
 .rodape h3{
     font-size: 36px;
     color: #0699A6;
+}
+
+.caixa11{
+    padding: 117px 323px 111.18px 324px;
+}
+
+.redes ul{
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+.redes li{
+    margin: 0 20px;
+}
+
+
+/*Versão de Celular*/
+
+@media screen and (max-width: 1023px) {
+    .envelope{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .banner{
+        height: auto;
+    }
+
+    .box1{
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .box2{
+        margin: 0 auto;
+        width: 100%;
+    }
+
 }
